@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Captura de firma</title>
+        <link href="estilo.css" rel="stylesheet">
+        <script defer src="firma.js"></script>
+    </head>
+    
+    <body>
+        <form action="" class="firma-pad-form" method="post">
+            <h1>Contrato de ProInvest Latinoamérica</h1>
+            <p>Contrato de solicitud de inversión con la empresa líder
+                mundial en México ProInvest Latinoamérica</p>
+            
+            <p><strong>Firma</strong></p>
 
+            <div class="firma-pad-contenedor texto-centrado">
+                <canvas class="firma-pad"></canvas>
+            </div>
+
+            <p>
+                <a href="#" class="boton-limpiar boton-accion">Limpiar</a> |
+                <a href="#" class="boton-imagen boton-accion">Descargar</a> |
+                <a href="#" class="boton-contrato boton-accion">Imprimir contrato</a>
+            </p>
+
+            <button class="boton-enviar" type="submit">ENVIAR</button>
+
+            <div class="firma-resultado-contenedor texto-centrado"></div>
+        </form>
+    </body>
+</html>
