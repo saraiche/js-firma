@@ -31,7 +31,7 @@ form.addEventListener('submit', (e) => {
     imagen.src = imagenURL;
     imagen.height = canvas.height;
     imagen.width = canvas.width;
-    imagen.classList.add('.firma-imagen');
+    imagen.classList.add('firma-imagen');
     //agregamos la imagen al html
     resultadoContenedor.appendChild(imagen);
     //limpia el canvas
